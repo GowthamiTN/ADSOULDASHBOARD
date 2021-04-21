@@ -1,0 +1,144 @@
+
+*{
+  margin:auto;
+}
+.bottom{
+  background-color:white;
+  
+}
+.apptitle{
+  background-color: white;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width:80%;
+  line-height: 25px;
+  transition: 0.3s;
+ 
+  margin-bottom: 20px;
+  align-items: center;
+  padding: 30px;
+}
+ul{
+  list-style-type: none;
+}
+span{
+   margin: 40px;
+}
+.tabledata{
+  align-items: center;
+}
+.button{
+  float: right;
+  text-align: center;
+  background-color: #a8a9b1;
+  width: 10%;
+  color: black;
+  margin-right: 6px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.tabledata{
+  border-collapse: collapse;
+  width: 100%;
+}
+.tabledata td, .tabledata th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tabledata tr:nth-child(even){background-color: #f2f2f2;}
+
+.tabledata tr:hover {background-color: #ddd;}
+
+.tabledata th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ce6f16;
+  color: white;
+}
+.division{
+  height:40%;
+}
+.apptitle{
+   font-size: medium;
+   float: left;
+}
+.logo {
+  width: 50%;
+  height: 10%;
+}
+.logo1 {
+  width: 10%;
+  height: 10%;
+  padding: 50px;
+}
+
+.App {
+  font-family: sans-serif;
+  background-color: #4254f5;
+}
+.title {
+  font-size: 1.5rem;
+  background-color: blue;
+  color: white;
+  font-style: bold;
+  letter-spacing: 7px;
+}
+P {
+  font-size: 2rem;
+}
+.item {
+  
+  padding: 40px;
+}
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.Heading {
+  color: white;
+  font-size: 2rem;
+  margin: 50px;
+}
+.section {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #5e0ecf;
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.block2 > div {
+  flex: 0 50%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.container {
+  text-align: center;
+  display: block;
+  background-color: white;
+}
+.block2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.List{
+  font-weight: bold;
+}
+.appshow{
+  background-color: #5e0ecf;
+  padding: 5px;
+}
